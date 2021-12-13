@@ -15,3 +15,17 @@ If we have time for a second workshop, we will cover:
 * Preparing a Custom Dataset for Huggingface
 * Training a Model on the Custom Dataset
 * An Overview of How Transformers Work
+
+## Setting Up Environment
+
+To setup the environment, we will [Anaconda](https://www.anaconda.com/products/individual) to install all CUDA drivers and the required Python libraries. CUDA is required for training on GPUs. It can be very difficult to install CUDA on Windows machines, so we'll be using Anaconda to make that easier.
+
+Once you've install Anaconda, run the following command in your terminal (at the root of the repository):
+
+```
+make conda
+```
+
+Simple huh? You can check the environment.yml file to see what was installed.
+
+Now, all you need to do is make sure you are using the `hf-windows` environment when you run the code in this repository.
