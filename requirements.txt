@@ -1,0 +1,9 @@
+pytorch-lightning
+transformers
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.9.0+cu102
+torchvision==0.10.0+cu102
+wandb
+wget
+tqdm
+ipykernel
